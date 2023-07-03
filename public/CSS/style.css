@@ -2,6 +2,7 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family:var(--tw-contrast);
     font-size: 2rem;
+    background-color:cadetblue;
 }
 nav a{
     padding: .5rem;
@@ -34,6 +35,7 @@ form input{
     padding: 10px;
     font-size: 1.9rem;
     font-family: 'Nunito';
+
 }
 form label{
     display: inherit;
@@ -68,8 +70,7 @@ form button{
     text-decoration: underline;
     font-size: 1.5rem;
     background: none;
-    padding: 1px;
-    padding-block: 1px;
+    padding: 0px;
     border: none;
     display:block;
 }

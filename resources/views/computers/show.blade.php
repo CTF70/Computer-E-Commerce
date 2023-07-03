@@ -6,7 +6,7 @@
     <div class="flex justify-center pt-8">
          <h1 style="font-weight: bold">Computers</h1>
     </div><br>
-    <div class="mt-8 overflow-hidden shadow sm:rounded-lg flex justify-center ">
+    <div class="mt-5 overflow-hidden shadow sm:rounded-lg flex justify-center ">
          <p>{{$computer['name']}} ( {{$computer['origin']}} ) - <strong>{{$computer['price']}}$</strong></p>
     </div><br>
     <a class="edit-btn" href="{{route('computers.edit',$computer->id)}}">edit</a>
