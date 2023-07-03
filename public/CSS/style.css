@@ -5,7 +5,7 @@ body{
     background-color:cadetblue;
 }
 nav a{
-    padding: .5rem;
+    padding: 3.5rem;
 }
 
 li{
@@ -20,11 +20,10 @@ li:hover{
     background: #f74747;
 }
 form{
-    background: white;
-    border: 1px solid #dddddd;
+    border: 0px solid #dddddd;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #0000000f;
+    box-shadow: 10px #000f;
 }
 form div{
     margin: 10px;
@@ -35,7 +34,6 @@ form input{
     padding: 10px;
     font-size: 1.9rem;
     font-family: 'Nunito';
-
 }
 form label{
     display: inherit;
@@ -60,17 +58,35 @@ form button{
     text-decoration: underline;
     font-size: 1.5rem;
     background: white;
-    border: 1px solid #dddddd;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #0000000f;
+    margin-right:50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position:fixed;
+}
+.edit-btn:hover{
+    background-color: #0056b3;
+    color: #ffffffff;
 }
 .delete-btn{
     color: rgb(229, 102, 144);
     text-decoration: underline;
     font-size: 1.5rem;
-    background: none;
-    padding: 0px;
+    background: #ffffffff;
     border: none;
     display:block;
+    padding: 5px 10px;
+    background-color: #ffffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    position:fixed;
+    margin-left: 130px;
+    margin-right: 50px;
+
 }
+.delete-btn:hover {
+  background-color: #0056b3;
+  color: #ffffffff;
+}
+
