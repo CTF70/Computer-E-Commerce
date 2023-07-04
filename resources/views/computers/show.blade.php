@@ -1,6 +1,6 @@
 @extends('layout')
-@section('title','Show Computer')
 @section('content')
+@section('title','Show Computer')
 
 <div class="max-w-6xl sm:px-6 lg:px-8">
     <div class="flex justify-center pt-8">
@@ -16,4 +16,5 @@
          <input class="delete-btn" type="submit" value="delete">
     </form>
 </div>
+
 @endsection
