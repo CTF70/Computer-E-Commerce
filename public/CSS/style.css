@@ -39,10 +39,10 @@ form label{
     display: inherit;
     font-size: 1.3rem;
     padding-bottom: 3px;
-    color: #9d9d9d;
+    color: #b0aeae;
 }
 form button{
-    border: 1px solid #ddd;
+    border: 2px solid #00000f;
     padding: 10px 25px;
     font-size: 1.5rem;
     margin: 10px 0;
@@ -60,10 +60,11 @@ form button{
     background: white;
     padding: 5px 10px;
     border-radius: 10px;
-    margin-right:50px;
+    margin-right:40px;
     margin-left: 50px;
     margin-top: 10px;
     position:fixed;
+    border: 2px solid #00000f;
 }
 .edit-btn:hover{
     background-color: #0056b3;
@@ -81,9 +82,9 @@ form button{
     border-radius: 10px;
     cursor: pointer;
     position:fixed;
-    margin-left: 130px;
+    margin-left: 120px;
     margin-right: 50px;
-
+    border: 2px solid #00000f;
 }
 .delete-btn:hover {
   background-color: #0056b3;

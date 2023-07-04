@@ -4,7 +4,7 @@
 
 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
     <div class="flex justify-center pt-8">
-        <h1 style="font-weight: bold">Edit an old Computer</h1>
+        <h1>Edit an old Computer</h1>
     </div>
     <br>
     <div class="flex justify-center pt-8">
