@@ -6,7 +6,7 @@
     <div class="flex justify-center pt-8">
         <h1 style="font-weight: bold">Computers</h1>
     </div>
-    <div>
+    <div><br>
          @if (count($computers)>0)
          <ul>
          @foreach ($computers as $computer )
