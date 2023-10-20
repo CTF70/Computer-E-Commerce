@@ -7,8 +7,8 @@
         <h1 style="font-weight: bold">CONTACT ME</h1>
     </div>
     <div class="mt-8 overflow-hidden shadow sm:rounded-lg flex justify-center ">
-         This is the contact page
-     </div>
+        This is the contact page
+    </div>
 </div>
 
 @endsection

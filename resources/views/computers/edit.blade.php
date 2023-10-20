@@ -15,27 +15,27 @@
                 <label for="computer-name">Computer Name</label>
                 <input id="computer-name" name="computer-name" value="{{$computer->name}}"  type="text">
                 @error('computer-name')
-                   <div class="form-error">
-                      {{$message}}
-                   </div>
+                    <div class="form-error">
+                        {{$message}}
+                    </div>
                 @enderror
             </div>
             <div>
                 <label for="computer-origin">Computer Origin</label>
                 <input id="computer-origin" name="computer-origin" value="{{$computer->origin}}" type="text">
                 @error('computer-origin')
-                   <div class="form-error">
-                      {{$message}}
-                   </div>
+                    <div class="form-error">
+                        {{$message}}
+                    </div>
                 @enderror
             </div>
             <div>
                 <label for="computer-price">Computer Price</label>
                 <input id="computer-price" name="computer-price" value="{{$computer->price}}" type="text">
                 @error('computer-price')
-                   <div class="form-error">
-                      {{$message}}
-                   </div>
+                    <div class="form-error">
+                        {{$message}}
+                    </div>
                 @enderror
             </div>
             <div>

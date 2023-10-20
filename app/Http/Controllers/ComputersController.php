@@ -7,11 +7,13 @@ use App\Models\Computer;
 class ComputersController extends Controller
 {
 
+
     public function index()
     {
        return view('computers.index',['computers'=>Computer::all()]);
 
     }
+
 
     public function create()
     {
@@ -28,6 +30,7 @@ class ComputersController extends Controller
 
         ]);
 
+
        $computer = new Computer();
        $computer->name=strip_tags($request->input('computer-name'));
        $computer->origin=strip_tags($request->input('computer-origin'));
@@ -35,6 +38,7 @@ class ComputersController extends Controller
        $computer->save();
        return redirect()->route('computers.index');
     }
+    
 
     public function show($computer)
     {

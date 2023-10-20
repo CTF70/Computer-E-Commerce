@@ -7,19 +7,19 @@
         <h1 style="font-weight: bold">Computers</h1>
     </div>
     <div><br>
-         @if (count($computers)>0)
-         <ul>
-         @foreach ($computers as $computer )
-         <a href="{{route('computers.show',['computer'=> $computer['id']])}}">
+        @if (count($computers)>0)
+        <ul>
+        @foreach ($computers as $computer )
+        <a href="{{route('computers.show',['computer'=> $computer['id']])}}">
             <li>
-                 <p>{{$computer['name']}} ( {{$computer['origin']}} ) - <strong>{{$computer['price']}}$</strong></p>
+                <p>{{$computer['name']}} ( {{$computer['origin']}} ) - <strong>{{$computer['price']}}$</strong></p>
             </li>
-         </a>
-         @endforeach
-         </ul>
-         @else
-         <p>There are no computers to display</p>
-         @endif
+        </a>
+        @endforeach
+        </ul>
+        @else
+        <p>There are no computers to display</p>
+        @endif
     </div>
 </div>
 
